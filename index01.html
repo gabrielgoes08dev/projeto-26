@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Formulario de Registro">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Formulario , Registro">
+    <link rel="stylesheet" href="css/style01.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>Formulario de Registro</header>
+        <form action="" class="form">
+            <div class="input-box">
+                <label>Nome completo</label>
+                <input type="text" placeholder="Digite seu nome completo..." required>
+            </div>
+            <div class="input-box">
+                <label>Endereço de Email</label>
+                <input type="text" placeholder="Digite seu Email..." required>
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Numero de telefone</label>
+                    <input type="number" placeholder="Digite seu telefone..." required>
+                </div>
+                <div class="input-box">
+                    <label>Data de nascimento</label>
+                    <input type="date" placeholder="Digite sua data de nascimento..." required>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gênero</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-masculino" name="gender" checked>
+                        <label for="check-masculino">Masculino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-feminino" name="gender">
+                        <label for="check-feminino">Feminino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-none" name="gender">
+                        <label for="check-none">Prefiro não me identificar</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-box addres">
+                <label>Endereço</label>
+                <input type="text" placeholder="Digite seu Endereço..." required>
+                <input type="text" placeholder="Digite sua rua..." required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option>País</option>
+                            <option>Brasil</option>
+                            <option>EUA</option>
+                            <option>Japão</option>
+                            <option>Argentina</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Digite sua cidade..." required>
+                </div>
+
+                <div class="column">
+                    <input type="text" placeholder="Digite seu bairro..." required>
+                    <input type="number" placeholder="Digite seu CEP..." required>
+                </div>
+            </div>
+
+            <button>Confirmar</button>
+        </form>
+    </section>
+</body>
+
+</html>
